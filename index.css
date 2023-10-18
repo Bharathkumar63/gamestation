@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:rgb(42, 37, 37);
+}
+.container{
+    max-width: 1180px;
+    padding-inline:30px;
+    margin: auto
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primary-btn{
+    background-color: rgb(42, 39, 39);
+    border:none;
+    cursor: pointer;
+    color: rgb(202, 32, 137); 
+}
+.secondary-btn{
+    background-color: rgb(202, 32, 137);
+    color: rgb(55, 50, 50);
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+
+/* NAV BAR SECTION */
+
+nav{
+    background-color: black;
+   height: 55px;
+   color: white;
+   position: fixed;
+   width: 100%;
+}
+.nav-items li{
+    display: inline;
+    padding: 20px ;
+    text-decoration-line: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items h2{
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-items li a:hover{
+    color: brown;
+    transition: all ease 0.5s;
+
+}
+.search{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+}
+.search input{
+    border: none;
+    border-radius: 6px;
+}
+.search input:hover{
+    transform: scale(1.6);
+    transition: all ease 1s;
+}
+
+.primary-btn:hover{
+    border-radius: 200px;
+    transition: all ease-in-out 0.9s;
+}
+
+.secondary-btn:hover{
+    border-radius: 200px;
+    transition: all ease-in-out 0.9s;
+}
+
+
+/* NAV ENDED */
+
+.container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    padding-block: 60px;
+    font-size: 5rem;
+}
+.text h1::first-letter{
+    font-size: 6rem;
+    color: rgb(46, 4, 136);
+    text-decoration: underline;
+  
+}
+.text h1:hover{
+    cursor: pointer;
+}
+.text{
+    padding-top: 150px;
+    text-align: center;
+}
+.text a{
+   
+    color: black;
+    border: none;
+    background-color: brown;
+    padding:10px;
+    border-radius: 10px;
+    transition: all ease 0.8s;
+    
+}
+.text a:hover{
+    background-color: rgb(255, 0, 187);
+    color: rgb(101, 0, 196);
+  
+   
+}
+.header-section{
+    /* background: linear-gradient(to right, rgb(102, 23, 141) ,rgb(255, 0, 157)); */
+    background-image: url(https://media.istockphoto.com/id/1466153810/photo/flying-gamepad-and-headphone-on-yellow-background-creative-minimal-gaming-concept-3d-rendering.jpg?s=1024x1024&w=is&k=20&c=-5fOcFOVzN62W1HpPqwqxCIUpBHhsCdNV2xjjFMfF2w=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.sub-text{
+    text-align: center;
+    padding-top:300px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: overline;
+    color: rgb(137, 15, 113);
+
+}
+
+.side-bar{
+    background-color: blueviolet;
+    width: 200px;
+    height: 400px;
+
+
+}
+.side-bar li{
+    padding: 10px;
+    list-style: none;
+}
+ .right-side{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-basis: 40%;
+    
+
+ }
+ .right-side li{
+    padding-block: 10px;
+    list-style-type: none;
+
+ }
+
+ .sub-section{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+
+ }
+
+ .sub-section img{
+    border-radius: 20px;
+ }
+ .sub-section .left-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: overline;
+    color: blueviolet;
+
+ }
+ .sub2{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-block: 40px;
+ }
+ .game-sec img{
+    width: 500px;
+    border-radius: 20px;
+ }
+ .left-text h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: overline;
+    color: blueviolet;
+
+ }
+
+
+ footer{
+   background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?auto=format&fit=crop&q=60&w=400&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+   height: 200px;
+   text-align: center;
+ }
+ .left-side{
+    color: rgb(155, 8, 141);
+    padding-block: 20px;
+    text-decoration: underline;
+ }
+ .right-side-footer li{
+    padding: 10px;
+    list-style: none;
+
+ }
+ .right-side-footer li a{
+    color: blueviolet;
+    padding: 10px;
+}
+.right-side-footer li a:hover{
+    color: rgb(127, 110, 110);
+    background-color: rgb(130, 45, 11);
+    transition: all ease 0.6s;
+}
